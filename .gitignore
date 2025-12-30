@@ -1,0 +1,32 @@
+**/Library/
+**/Temp/
+**/Obj/
+**/Build/
+**/Builds/
+**/Logs/
+**/UserSettings/
+
+# Arquivos de solução do Visual Studio/Rider
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Arquivos de sistema e Unity específicos
+*.swp
+*.bak
+*.cache
+*.assetproxy.bin
+.DS_Store
+Thumbs.db
+
+# Crashlytics
+crashlytics-build.properties
