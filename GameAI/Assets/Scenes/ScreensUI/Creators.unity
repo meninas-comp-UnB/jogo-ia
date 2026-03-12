@@ -481,7 +481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 423, y: 251}
+  m_AnchoredPosition: {x: 423, y: 220}
   m_SizeDelta: {x: 271, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256429869
@@ -864,8 +864,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.116, y: -133.96}
-  m_SizeDelta: {x: 2570.2, y: 1200.5173}
+  m_AnchoredPosition: {x: -21.116, y: -125.96}
+  m_SizeDelta: {x: 2574.2, y: 890.517}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577062389
 MonoBehaviour:
@@ -1330,7 +1330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 251}
+  m_AnchoredPosition: {x: 0, y: 220}
   m_SizeDelta: {x: 209, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869770237
@@ -1451,7 +1451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 846, y: 251}
+  m_AnchoredPosition: {x: 846, y: 220}
   m_SizeDelta: {x: 209, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940623341
@@ -1673,8 +1673,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 600}
-  m_SizeDelta: {x: 677.2772, y: 156.844}
+  m_AnchoredPosition: {x: 0, y: 444}
+  m_SizeDelta: {x: 670.2772, y: 100.844}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150618815
 MonoBehaviour:
@@ -1901,7 +1901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -846, y: 251}
+  m_AnchoredPosition: {x: -846, y: 220}
   m_SizeDelta: {x: 209, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400375942
@@ -2455,7 +2455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423, y: 251}
+  m_AnchoredPosition: {x: -423, y: 220}
   m_SizeDelta: {x: 209, y: 262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1624523192
@@ -2988,7 +2988,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1524383358}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: GoToMenu
+        m_MethodName: GoToOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

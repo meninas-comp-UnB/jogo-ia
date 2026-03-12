@@ -1723,7 +1723,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1360881995}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: GoToTemporary
+        m_MethodName: GoToCreators
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

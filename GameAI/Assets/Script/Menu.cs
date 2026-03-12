@@ -30,6 +30,12 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Lobby");
     }
 
+    public void GoToCreators()
+    {
+        SceneManager.LoadScene("Creators");
+    }
+
+
     public void QuitGame()
     {
         Application.Quit();
