@@ -595,8 +595,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d0301364e9173f4382246f675a942f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scena: Phase_1
-  secondScena: 
 --- !u!4 &1318760741
 Transform:
   m_ObjectHideFlags: 0
