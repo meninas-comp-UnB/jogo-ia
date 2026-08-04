@@ -27,11 +27,24 @@ public class TutorialManager : MonoBehaviour
         painelTutorial.SetActive(true);
     }
 
-    public void ProximoSlide()
+    public void ProximoSlide() 
     {
         slideAtual++;
 
         if (slideAtual < slidesTutorial.Length)
+        {
+            imagemMostrador.sprite = slidesTutorial[slideAtual];
+        }
+        else
+        {
+            FecharTutorial();
+        }
+    }
+    public void SlideAnterior()
+    {
+        slideAtual--;
+
+        if (slideAtual >= 0)
         {
             imagemMostrador.sprite = slidesTutorial[slideAtual];
         }
