@@ -22,7 +22,7 @@ public class MenuManager : MonoBehaviour
 
     public void GoToMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MenuV2");
     }
 
     public void GoToLobby()
@@ -40,5 +40,15 @@ public class MenuManager : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Saiu do jogo");
+    }
+
+    public void GoToTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    public void GoToAboutGame()
+    {
+        SceneManager.LoadScene("AboutGame");
     }
 }

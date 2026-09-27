@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -14,8 +15,7 @@ public class TutorialManager : MonoBehaviour
 
     private void Start()
     {
-        if (painelTutorial != null) 
-            painelTutorial.SetActive(false);
+
     }
 
     public void AbrirTutorial()
@@ -37,7 +37,7 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            FecharTutorial();
+            SceneManager.LoadScene("Lobby");
         }
     }
     public void SlideAnterior()
@@ -50,13 +50,12 @@ public class TutorialManager : MonoBehaviour
         }
         else
         {
-            FecharTutorial();
+            SceneManager.LoadScene("Lobby");
         }
     }
 
     public void FecharTutorial()
     {
-        if (painelTutorial != null) 
-            painelTutorial.SetActive(false);
+        SceneManager.LoadScene("MenuV2");
     }
 }

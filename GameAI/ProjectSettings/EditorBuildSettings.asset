@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ScreensUI/Menu.unity
     guid: f9d066f42d0f4954abceb55b42f884d2
   - enabled: 1
@@ -23,4 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScreensUI/Creators.unity
     guid: 2354a07075582fa49b649d5594b446aa
+  - enabled: 1
+    path: Assets/Scenes/ScreensUI/MenuV2.unity
+    guid: 76fb048acc46d1643bed9f52e25bb339
+  - enabled: 1
+    path: Assets/Scenes/ScreensUI/Tutorial.unity
+    guid: 2a7be6d0c175d504cacfeeb387c4f8d4
+  - enabled: 1
+    path: Assets/Scenes/ScreensUI/AboutGame.unity
+    guid: 8e0163400399fb947b79fd2a16a6eac6
   m_configObjects: {}
