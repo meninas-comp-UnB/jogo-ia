@@ -46,4 +46,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Tutorial");
     }
+
+    public void GoToAboutGame()
+    {
+        SceneManager.LoadScene("AboutGame");
+    }
 }
